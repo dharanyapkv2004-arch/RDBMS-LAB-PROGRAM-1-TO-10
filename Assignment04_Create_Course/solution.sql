@@ -1,9 +1,8 @@
-DROP DATABASE IF EXISTS CollegeDB;
 CREATE DATABASE CollegeDB;
 USE CollegeDB;
+ALTER TABLE Student ADD (
+    Email VARCHAR2(30),
+    PhoneNumber NUMBER(10)
+);
 
--- Create Course table
-
--- Insert three records
-
--- Display structure
+DESC Student;
